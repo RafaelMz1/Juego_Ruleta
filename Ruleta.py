@@ -1,6 +1,6 @@
 import random,time
+print("Bienvenido al juego de la ruleta")
 while True:
-    print("Bienvenido al juego de la ruleta")
     lista1= ["Manzana", "Pera", "Uva", "Mango", "Piña"]
     lista2= ["Manzana", "Pera", "Uva", "Mango", "Piña"]
     lista3= ["Manzana", "Pera", "Uva", "Mango", "Piña"]
@@ -22,6 +22,8 @@ while True:
         else:
             print("esta bien")
             break
+        if diferencia > 60:
+            print(f"te demoraste {diferencia/60} minutos")
 
     else:
         print("\nPERDISTE\n")
